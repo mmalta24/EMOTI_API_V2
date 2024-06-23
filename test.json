@@ -1,0 +1,155 @@
+{
+    "_id": {
+        "$oid": "6676c8ceee77fa257954a859"
+    },
+    "username": "Crianca1",
+    "password": "$2a$10$70cAvCYRITfmDwBL1WQDNO8S4dPRD3vu5l/MyLS8fGbz4U.KwtcIC",
+    "name": "João Afonso",
+    "email": "crianca1@email.com",
+    "typeUser": "Criança",
+    "imgProfile": "",
+    "blocked": false,
+    "children": [],
+    "totalPoints": {
+        "$numberInt": "14"
+    },
+    "last_access": "22/6/2024 14:1",
+    "notifications": [
+        {
+            "title": "Nova Atividade Personalizada",
+            "text": "O seu Tutor, JOHN SMITH, adicionou ao seu catálogo a seguinte atividade: TESTE3.",
+            "_id": {
+                "$oid": "6676cad2ee77fa257954a9f9"
+            }
+        }
+    ],
+    "history": [
+        {
+            "date": "22/6/2024",
+            "activity": {
+                "$oid": "6676b770ee77fa257954a7b3"
+            },
+            "questionsRight": [],
+            "questionsWrong": [
+                {
+                    "$numberInt": "0"
+                }
+            ],
+            "_id": {
+                "$oid": "6676cb41ee77fa257954ab2e"
+            }
+        },
+        {
+            "date": "22/6/2024",
+            "activity": {
+                "$oid": "6319f3f88bc3d2a9113b712c"
+            },
+            "questionsRight": [
+                {
+                    "$numberInt": "1"
+                }
+            ],
+            "questionsWrong": [
+                {
+                    "$numberInt": "0"
+                }
+            ],
+            "_id": {
+                "$oid": "6676cb71ee77fa257954aba1"
+            }
+        },
+        {
+            "date": "22/6/2024",
+            "activity": {
+                "$oid": "630cdb43f3a2e0e1e6fab616"
+            },
+            "questionsRight": [],
+            "questionsWrong": [
+                {
+                    "$numberInt": "0"
+                },
+                {
+                    "$numberInt": "1"
+                }
+            ],
+            "_id": {
+                "$oid": "6676cb86ee77fa257954ac2a"
+            }
+        },
+        {
+            "date": "22/6/2024",
+            "activity": {
+                "$oid": "632093f34f47931ba6e6fb3e"
+            },
+            "questionsRight": [
+                {
+                    "$numberInt": "0"
+                }
+            ],
+            "questionsWrong": [],
+            "_id": {
+                "$oid": "6676cb98ee77fa257954ac90"
+            }
+        },
+        {
+            "date": "21/6/2024",
+            "activity": {
+                "$oid": "632093f34f47931ba6e6fb3e"
+            },
+            "questionsRight": [
+                {
+                    "$numberInt": "0"
+                }
+            ],
+            "questionsWrong": [],
+            "_id": {
+                "$oid": "6676cb98ee77fa257956ac90"
+            }
+        },
+        {
+            "date": "20/6/2024",
+            "activity": {
+                "$oid": "632093f34f47931ba6e6fb3e"
+            },
+            "questionsRight": [
+                {
+                    "$numberInt": "0"
+                }
+            ],
+            "questionsWrong": [],
+            "_id": {
+                "$oid": "6676cb98ee77fa257054ac90"
+            }
+        }
+    ],
+    "activitiesPersonalized": [
+        {
+            "activity": {
+                "$oid": "632093f34f47931ba6e6fb3e"
+            },
+            "isDone": true,
+            "points": {
+                "$numberInt": "14"
+            },
+            "_id": {
+                "$oid": "6676cad2ee77fa257954a9f7"
+            }
+        },
+        {
+            "activity": {
+                "$oid": "630cdb43f3a2e0e1e6fab616"
+            },
+            "isDone": true,
+            "points": {
+                "$numberInt": "14"
+            },
+            "_id": {
+                "$oid": "6676cb08ee77fa257954aa71"
+            }
+        }
+    ],
+    "activitiesSuggested": [],
+    "tutor": {
+        "$oid": "6676c889ee77fa257954a830"
+    }
+}
